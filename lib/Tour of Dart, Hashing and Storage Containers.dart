@@ -30,4 +30,9 @@ void main() {
   name1 = 10;
   print("now name1 is $name1");
   print(name1.runtimeType);
+
+  //is used for switching functions like yes or no,silent or volume
+  bool IsInternetOn = false;
+  IsInternetOn = true;
+  print("IsInternetOn : $IsInternetOn");
 }
