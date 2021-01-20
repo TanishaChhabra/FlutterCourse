@@ -2,7 +2,7 @@
 //We use abstraction when we have to create some code for others
 //eg.PayTM wallet in Zomato/Uber etc.
 //   PayTM will write code,which will be used by other apps and those apps will not have direct access to PayTM code and PayTM will write some rules which all other apps should implement for transactional purpose.
-
+//https://wordpress.com/post/tanisha1004.wordpress.com/33
 //Abstract class is only for inheriatnce and we cannot create it's applications.
 abstract class PayTMGateway{
   void onSuccess() => print("Payment Transaction Successful");
